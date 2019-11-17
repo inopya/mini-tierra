@@ -42,11 +42,11 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
   
 ***SENSORES EMPLEADOS***
 
-CO2 ---> **MQ-135**         _(interior del recipiente)_
+**MQ-135**  --->  CO2 _(interior del recipiente)_
 
-HUMEDAD y TEMPERATURA ---> **GY-21**           _(interior del recipiente)_
+**GY-21**  --->  HUMEDAD y TEMPERATURA _(interior del recipiente)_
 
-PH -->  **Sonda PH 0-14**  _(interior del recipiente)_
+**Sonda PH 0-14**  -->  PH _(interior del recipiente)_
 
-TEMPERATURA y  PRESION ATMOSF. ---> **BMP180**          _(exterior del recipiente)_
+**BMP180**  --->  TEMPERATURA y PRESION ATMOSF. _(exterior del recipiente)_
 

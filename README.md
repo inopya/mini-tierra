@@ -34,12 +34,11 @@
   
 ***SENSORES EMPLEADOS***
 
-CO2 -----------> **MQ-135**          _(interior del recipiente)_
+CO2 ---> **MQ-135**         _(interior del recipiente)_
 
-HUMEDAD -------> **GY-21**           _(interior del recipiente)_
-TEMPERATURA
+HUMEDAD y TEMPERATURA ---> **GY-21**           _(interior del recipiente)_
 
-PH ------------>  **Sonda PH 0-14**  _(interior del recipiente)_
+PH -->  **Sonda PH 0-14**  _(interior del recipiente)_
 
-TEMPERATURA ---> **BMP180**          _(Exterior del recipiente)_
-PRESION ATMOS
+TEMPERATURA y  PRESION ATMOSF. ---> **BMP180**          _(exterior del recipiente)_
+

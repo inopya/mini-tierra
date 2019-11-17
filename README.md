@@ -39,6 +39,7 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
   El fichero "capturar_datos_experimento.py" dispone de opciones para comunicacion mediante un bot de telegram y correo electronico.
   Como algunos sensores, especialmente los analogicos, CO2 y Ph meten algo de ruido, se dispone de una opcion en las llamadas a la funcion 'subplot_grafico()' para poder paliar dicho ruido. Si el parametro 'soft' es 'True' se suavida la curva para minimizar el efecto del ruido.
   Se puede ver un ejemplo de dicho suavizado en dos capturas del experimento que encontrarás en la carpeta imagenes.
+  La aplicacion de dicho suavizado no afecta a los datos registrados, solo afecta al modo visualizacion.
   
 ***SENSORES EMPLEADOS***
 

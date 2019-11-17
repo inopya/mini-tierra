@@ -34,8 +34,7 @@ Montaje usando Arduino Nano y escudo para facilitar las conexiones.
 
 ***recipiente.jpg***
 
-Esta es 'minitierra' :)
-Un poco de agua de charca en una garrafa de 5 litros
+Esta es 'minitierra'. Un poco de agua de charca en una garrafa de 5 litros :)
 
 
 ***sensores.jpg***

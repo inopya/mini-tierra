@@ -28,9 +28,8 @@
  - Calibrado del sensor de gases MQ135 para usarlo con CO2
    Se debe realizar la calibracion en un entorno con concentracion conocida 
    y manteniendolo previamente encendido al menos un par de horas.
-   En nuestro caso y a falt d esa rferencia real, lo calibraremos en ls horas centrales del dia
-   y usaremos el valor de  415ppm como referencia 
-   (Es lo que se estima de media en el planeta)
+   En nuestro caso y a falta de esa rferencia real, lo calibraremos en las horas centrales del dia
+   y usaremos el valor de  415ppm como referencia (Es lo que se estima de media en el planeta)
    
    
 

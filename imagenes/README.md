@@ -15,7 +15,7 @@
 
 
 
-***grafica_raw.png***
+* ***grafica_raw.png***
 
 ![](./pics/grafica_raw.png)
 
@@ -24,7 +24,7 @@ Grafica de un momento del experimento en el que se aprecia el ruido de los senso
 [Grafica Raw Big](https://github.com/inopya/mini-tierra/tree/master/imagenes/grafica_raw.png)
 
 
-***grafica_soft.png***
+* ***grafica_soft.png***
 
 ![](./pics/grafica_soft.png)
 
@@ -33,28 +33,28 @@ Se debe recordar que no afecta a los valores que se guardan, solo a la represent
 [Grafica Soft Big](https://github.com/inopya/mini-tierra/tree/master/imagenes/grafica_soft.png)
 
 
-***micro_protoboard.jpg***
+* ***micro_protoboard.jpg***
 
 ![](./pics/micro_protoboard.jpg)
 
 Ejemplo de montaje ([original Biot](https://github.com/inopya/mini-tierra/tree/master/imagenes/micro_protoboard.jpg)) en protoboard usando Arduino Micro. 
 
 
-***nano_escudo.jpg***
+* ***nano_escudo.jpg***
 
 ![](./pics/nano_escudo.jpg)
 
 Montaje usando [Arduino Nano y escudo](https://github.com/inopya/mini-tierra/tree/master/imagenes/nano_escudo.jpg) para facilitar las conexiones.
 
 
-***recipiente.jpg***
+* ***recipiente.jpg***
 
 ![](./pics/recipiente.jpg)
 
 Esta es ['minitierra'](https://github.com/inopya/mini-tierra/tree/master/imagenes/recipiente.jpg). Un poco de agua de charca en una garrafa de 5 litros :)
 
 
-***sensores.jpg***
+* ***sensores.jpg***
 
 ![](./pics/sensores.jpg)
 

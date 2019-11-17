@@ -21,7 +21,7 @@
 
 Grafica de un momento del experimento en el que se aprecia el ruido de los sensores analogicos.
 (En la grafica se ven datos de indice UV, sensor del que no se habla en el montaje. Dichos valores estan tomados desde mi estacion meteorologica que si dispone de dicho sensor y han sido sustituidos por los de presion al momento de hacer estas representaciones de muestra)
-[Grafica Raw Big](https://github.com/inopya/mini-tierra/imagenes/grafica_raw.png)
+[Grafica Raw Big](https://github.com/inopya/mini-tierra/imagenes//tree/master/grafica_raw.png)
 
 
 * ***grafica_soft.png***
@@ -30,7 +30,7 @@ Grafica de un momento del experimento en el que se aprecia el ruido de los senso
 
 Grafica del mismo momento del experimento, pero aplicando la reduccion de ruido.
 Se debe recordar que no afecta a los valores que se guardan, solo a la representacion grafica.
-[Grafica Soft Big](https://github.com/inopya/mini-tierra/imagenes/grafica_soft.png)
+[Grafica Soft Big](https://github.com/inopya/mini-tierra/imagenes//tree/master/grafica_soft.png)
 
 
 * ***micro_protoboard.jpg***

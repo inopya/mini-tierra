@@ -3,6 +3,12 @@
 
 #### Reproduciendo en casa el experimento bioclimatico presentado en el biotecnoencuentro de Pulpi en octubre de 2019
 
+
+![](https://github.com/inopya/mini-tierra/tree/master/imagenes/grafica_soft.png)
+
+*ejemplo de captura y representacion de datos en funcionamiento*
+
+
 ***UN POCO DE HISTORIA***
 
 Primero de todo, que dicho experimento aun se puede encontrar en el repositorio Biot. 

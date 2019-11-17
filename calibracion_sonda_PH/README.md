@@ -4,9 +4,13 @@
 
 
    MODO DE EMPLEO:
+   
  =======================
-  1- Quita la sonda de ph y cortocircuita los terminales del sensor
-  2- Ahora, ajusta el potenciometro hasta que 'V Ph' sea 2.5  
+ 
+  1- Quita la sonda de ph y cortocircuita los terminales del sensor.
+  
+  2- Ahora, ajusta el potenciometro hasta que 'V Ph' sea 2.5.
+  
   3- Una vez ajustado, coloca la sonda y obten 'ADC' para dos medios de los que conozcas el PH.
      Apunta esos valores para no olvidarlos.
     

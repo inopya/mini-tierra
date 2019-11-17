@@ -13,7 +13,7 @@
 
 ***UN POCO DE HISTORIA***
 
-Primero de todo, que dicho experimento aun se puede encontrar en el repositorio @inopya/Biot.
+Primero de todo, que dicho experimento aun se puede encontrar en el repositorio https://github.com/inopya/Biot.
 
 Dado que el programa de adquisision de datos de Biot fue una version bastante reducida de mi estacion meteorológica @meteosorbasbot, en esta reproduccion casera de dicho experimento sobre los gases de efecto invernadero se 
 ha usado una version mas parecida a mi programa base de adquisicion y representacion (aunque no completa). No elimino de momento el repositorio original del Biot, pero es conveniente usar los programas de aqui en lugar de aquellos.

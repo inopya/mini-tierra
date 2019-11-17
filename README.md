@@ -3,7 +3,7 @@
 
 ##### Reproduciendo en casa el experimento bioclimatico hecho en el biotecnoencuentro de Pulpi en octubre de 2019
 
-#### CONTENIDO
+#### CONTENIDO DE ESTE REPOSITORIO
 * CARPETA> calibracion_MQxx:
  *Utilidad Arduino para la calibracion del MQ135 para CO2*
 * CARPETA> calibracion_sonda_PH:
@@ -24,3 +24,19 @@
  
 * FICHERO> experimento_minitierra_full.txt: 
  *Resultados del mi experimento durante los dias 03/11/2019 al 12/11/2019. Desde el se pueden exrtaer los diarios y graficarlos con     las utilidades python que hay en este repositorio*
+ 
+***MODO DE EMPLEO***
+  El fichero "capturar_datos_experimento.py" dispone de opciones para comunicacion mediante un bot de telegram y correo electronico.
+  Como algunos sensores, especialmente los analogicos, CO2 y Ph meten algo de ruido, se dispone de una opcion en las llamadas a la funcion 'subplot_grafico()' para poder paliar dicho ruido. Si el parametro 'soft' es 'True' se suavida la curva para minimizar el efecto del ruido.
+  Se puede ver un ejemplo de dicho suavizado en dos capturas del experimento que encontrarás en la carpeta imagenes.
+  
+***SENSORES EMPLEADOS***
+CO2 -----------> **MQ-135**          _(interior del recipiente)_
+
+HUMEDAD -------> **GY-21**           _(interior del recipiente)_
+TEMPERATURA
+
+PH ------------>  **Sonda PH 0-14**  _(interior del recipiente)_
+
+TEMPERATURA ---> **BMP180**          _(Exterior del recipiente)_
+PRESION ATMOS

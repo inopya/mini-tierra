@@ -4,11 +4,9 @@
 #### Reproduciendo en casa el experimento bioclimatico presentado en el biotecnoencuentro de Pulpi en octubre de 2019
 
 
-![](./imagenes/grafica_soft.png)
+![](./imagenes/recipiente.jpg)
 
-###### *ejemplo de captura y representacion de datos en funcionamiento*
-
-
+                ###### *Recipiente de Mini tierra*
 
 
 ***UN POCO DE HISTORIA***
@@ -59,4 +57,23 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
 **Sonda PH 0-14**  -->  PH _(interior del recipiente)_
 
 **BMP180**  --->  TEMPERATURA y PRESION ATMOSF. _(exterior del recipiente)_
+
+
+
+* ***grafica original***
+
+![](./imagenes/grafica_raw.png)
+
+Grafica de un momento del experimento en el que se aprecia el ruido de los sensores analogicos.
+(En la grafica se ven datos de indice UV, sensor del que no se habla en el montaje. Dichos valores estan tomados desde mi estacion meteorologica que si dispone de dicho sensor y han sido sustituidos por los de presion al momento de hacer estas representaciones de muestra)
+[Grafica Raw Big](https://github.com/inopya/mini-tierra/imagenes//tree/master/grafica_raw.png)
+
+
+* ***grafica suavizada***
+
+![](./imagenes/grafica_soft.png)
+
+Grafica del mismo momento del experimento, pero aplicando la reduccion de ruido.
+Se debe recordar que no afecta a los valores que se guardan, solo a la representacion grafica.
+[Grafica Soft Big](https://github.com/inopya/mini-tierra/imagenes//tree/master/grafica_soft.png)
 

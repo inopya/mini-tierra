@@ -50,7 +50,7 @@ Montaje usando [Arduino Nano y escudo](https://github.com/inopya/mini-tierra/tre
 
 ![](./pics/recipiente.jpg)
 
-Esta es '[minitierra]'(https://github.com/inopya/mini-tierra/tree/master/imagenes/recipiente.jpg). Un poco de agua de charca en una garrafa de 5 litros :)
+Esta es ['minitierra'](https://github.com/inopya/mini-tierra/tree/master/imagenes/recipiente.jpg). Un poco de agua de charca en una garrafa de 5 litros :)
 
 
 ***sensores.jpg***

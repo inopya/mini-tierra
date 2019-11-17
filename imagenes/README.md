@@ -24,7 +24,7 @@ Se debe recordar que no afecta a los valores que se guardan, solo a la represent
 
 ***micro_protoboard.jpg***
 
-Ejemplo de montaje en protoboard usando Arduino Micro. 
+Ejemplo de montaje (original Biot) en protoboard usando Arduino Micro. 
 
 
 ***nano_escudo.jpg***

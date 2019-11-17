@@ -9,6 +9,8 @@
 ###### *ejemplo de captura y representacion de datos en funcionamiento*
 
 
+
+
 ***UN POCO DE HISTORIA***
 
 Primero de todo, que dicho experimento aun se puede encontrar en el repositorio Biot.

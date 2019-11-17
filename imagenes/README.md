@@ -7,11 +7,13 @@
 [Detalle del sellado de 'minitierra'](https://github.com/inopya/mini-tierra/tree/master/imagenes/detalle_cierre.jpg)
 
 
+
 ***detalle_conexion.jpg***
 
 ![](./pics/detalle_conexion.jpg)
 
 [Detalle de los zocalos](https://github.com/inopya/mini-tierra/tree/master/imagenes/detalle_conexion.jpg)  hechos para una comoda conexion de los sensores.
+
 
 
 ***grafica_raw.png***

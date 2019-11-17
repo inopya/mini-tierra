@@ -1,7 +1,9 @@
 ## IMAGENES
 
 ***detalle_cierre.jpg***
+
 ![](./pics/detalle_cierre.jpg)
+
 [Detalle del sellado de 'minitierra'](https://github.com/inopya/mini-tierra/tree/master/imagenes/detalle_cierre.jpg)
 
 ***detalle_conexion.jpg***

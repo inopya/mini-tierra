@@ -4,9 +4,9 @@
 #### Reproduciendo en casa el experimento bioclimatico presentado en el biotecnoencuentro de Pulpi en octubre de 2019
 
 
-![](./imagenes/recipiente.jpg)
+![](./imagenes/pics/recipiente.jpg)
 
-                ###### *Recipiente de Mini tierra*
+                     Recipiente de Mini tierra 
 
 
 ***UN POCO DE HISTORIA***

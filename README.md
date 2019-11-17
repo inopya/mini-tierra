@@ -4,12 +4,14 @@
 ##### Reproduciendo en casa el experimento bioclimatico hecho en el biotecnoencuentro de Pulpi en octubre de 2019
 
 ***UN POCO DE HISTORIA***
+
 Primero de todo, que dicho experimento aun se puede encontrar en el repositorio Biot. 
 Dado que el programa de adquisision de datos de Biot fue es una version bastante reducida de mi estacion meteorológica @meteosorbasbot, en esta reproduccion casera de dicho experimento sobre los gases de efecto invernadero se 
 ha usado una version mas parecida a mi programa base de adquisicion y representacion (aunque no completa). No elimino de momento el repositorio original del Biot, pero es conveniente usar los programas de aqui en lugar de aquellos.
 
 
-#### CONTENIDO DE ESTE REPOSITORIO
+***CONTENIDO DE ESTE REPOSITORIO***
+
 * CARPETA> calibracion_MQxx:
  *Utilidad Arduino para la calibracion del MQ135 para CO2*
 * CARPETA> calibracion_sonda_PH:

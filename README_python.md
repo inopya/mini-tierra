@@ -1,7 +1,8 @@
-## EXPLICACION DE LOS FICHEROS PYTHON
+# EXPLICACION DE LOS FICHEROS PYTHON
 
-# capturar_datos_experimento.py
-
+**===================================================**
+## capturar_datos_experimento.py
+### mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 	Es el programa central. Se encarga de comunicar con Arduino, recopilar los datos, 
 	registrarlos en un fichero y generar graficas con ellos en 'tiempo real' 
@@ -17,7 +18,7 @@
 	Ojo, si hay mas de de un dispositivo conectado en los puertos serie podemos 'tener problemas'
 	y no detectar correctamente a nuesto Arduino.
 
-## Modo online y modo offline
+### Modo online y modo offline
 
 	Disponemos de deos modos de funcionamiento: *online* y *offline*
 	El registro de datos y la representacion graficas estan habilitados siempre,
@@ -34,7 +35,7 @@
 	- el envio de informacion a un email periodicamente al cierre de cada dia.
 
 
-## Telegram (modo online)
+### Telegram (modo online)
 
     *Para crear tu bot telegram añade a tus contactos a BotFather y sigue sus instrucciones*
 	Obten el token de tu bot y asignala a la variable **TOKEN**.
@@ -52,7 +53,7 @@
 	En caso de que un usuario no autorizado los ejecute, recibira en respuesta un escueto "ok", 
 	pero no se realizará ninguna accion por parte del programa.
 
-## Email (modo online)
+### Email (modo online)
 
 	Asi mismo para poder usar las funciones de correo deben configurarse las variables
 	SMTP_CORREO_ENVIOS   (servidor smtp del usuario)
@@ -64,7 +65,7 @@
 	Asi mismo en la variable *'lista_correo_experimento'* debe contener una o mas direcciones de destino
 	lista_correo_experimento = ['sorbasdigital@hotmail.com','direccion2','direccion3']  
 
-## Lista de comando telegram
+### Lista de comando telegram
 
 	- /start - inicia el bot
 	- /ayuda - Mostrar esta Ayuda
@@ -80,7 +81,7 @@
 
 
 
-## Suavizado de gráica
+### Suavizado de gráica
 
 	Dado que algunos sensores (especialmeten los analogicos: LDRs, sensores de gas, de pH...) 
 	suelen ser algo ruidosos, en el apartado de funciones para dibujar la grafica, 
@@ -92,7 +93,7 @@
 	El suavizado gráfico afecta solo a la representación.
 
 
-## Registro/Salvado de datos:
+### Registro/Salvado de datos:
 
 * El programa realiza copias de los datos cada cierto tiempo, 
   programable mediante la variable **INTERVALO_BACKUP**

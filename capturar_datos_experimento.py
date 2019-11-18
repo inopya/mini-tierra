@@ -1403,19 +1403,19 @@ if puertoDetectado:
                                         #tiene sus ventajas ya que no corrrompe los ficheros si es que llegan a guardarse, pero no
                                         #se reintenta si no se completa y puede quedar alguna tarea pendiente, sea convertir, enviar email...
                 
-                #crear un nuevo registro con el nombre de: año_mes_dia.dat
+                #crear un nuevo registro con el nombre de: año_mes_dia.*
                 ruta = RUTA_PROGRAMA + RUTA_BACKUP + "diarios/"
                 #el nombre del fichero corresponde al dia transcurrido, por eso lo generamos en el bloque siguiente
                 nombreCompleto = ruta + nombre_fichero_diario
 
-                #salvar registros publicos diarios               
+                #salvar registros diarios en formato python pickle             
                 salvar_Backup_datos(lista_Datos_SOLO_dia_en_curso, nombreCompleto + ".data")   #Salva los datos diarios a formato *.data
 
-                #salvar registros publicos diarios               
-                salvar_Backup_datos(lista_Datos_Experimento, nombreCompleto + ".full")   #Salva los datos acumulados a formato *.full
-
-                #convertir a TXT
+                #salvar registros diarios en formato TXT
                 convertir_Datos_to_TXT(lista_Datos_SOLO_dia_en_curso, nombreCompleto + ".txt", cabecera=cabeceraTXTdatos) #convierte y salva los datos diarios a un fichero *.txt
+               
+                #salvar registros acumulados en formato TXT               
+                convertir_Datos_to_TXT(lista_Datos_Experimento, nombreCompleto + "_full.txt")   #Salva los datos acumulados a formato *.txt
 
                 # CAMBALACHE PARA QUE EN LA GRAFICA DE RESUMEN DIARIO APAREZCAN LAS 23:59
                 # establecemos nuestras variables horarias manualmente
@@ -1449,7 +1449,7 @@ if puertoDetectado:
                                                  cabecera=cabeceraTXTdatos)
                 status2 = enviarEmail(nombreRutaConExtension)
                 if(status1==True and status2==True):
-                    send_message("EMAIL enviado correctamente", chat_id)
+                    send_message("EMAIL enviado correctamente", ADMIN_USER)
                 else:
                     send_message("ERROR al enviar Email diarios", ADMIN_USER)
                     print ("ERROR al enviar Email diarios")

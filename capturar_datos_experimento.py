@@ -28,7 +28,7 @@
     que recibe, aunque es posible cambiar el aspecto de forma manual.
     
     Entre los datos a configurar por el usuario esta el 'numero de sensores'
-    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1179 --
+    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1189 --
     Veras que con una pequeña modificacion se puede hacer que el programa automaticamente
     se adapte a los datos recibidos, pero se ha optado por esta solucion por comodidad.
     Asi indicando el numero de sensores y los nombres de estos, tendremos siempre los
@@ -228,7 +228,17 @@ print ("\nRuta ABSOUTA DEL PROGRAMA:\n", RUTA_PROGRAMA)
 print ("\nNombre del fichero en ejecucion:\n", NOMBRE_SCRIPT_EN_EJECUCION)
 print ("\n==================================================\n\n")
 
+#control de existencia de las carpetas de trabajo necesarias
+ruta1 = RUTA_PROGRAMA + RUTA_BACKUP[:-1]
+if not os.path.exists(ruta1):
+    os.makedirs(ruta1)
+    print("Error no existia la carpeta backup, pero la he creado")
+ruta2 = RUTA_PROGRAMA + RUTA_BACKUP + "diarios"
+if not os.path.exists(ruta2):
+    os.makedirs(ruta2)
+    print("Error no existia la carpeta backup/diarios , pero la he creado")
 
+   
 SerialDelay = 0.5                   #tiempo entre llamadas del puerto (en segundos), para que pueda reaccionar.
                                     #No usar tiempos inferiores a 0.25 segundos 
 
@@ -1271,8 +1281,8 @@ if puertoDetectado:
         # ========== PREPARAR las listas de DATOS y REPRESENTARLOS EN LA GRAFICA =======================================
         try:
             if len(lista_Datos_Experimento) > 1:
-                #if time.time() > minuto_dibujar_grafica + TIEMPO_ENTRE_MUESTRAS:#tiempo entre muestra flexible
-                if MINUTO != minuto_dibujar_grafica:
+                #if time.time() > minuto_dibujar_grafica + TIEMPO_ENTRE_MUESTRAS: #tiempo entre actualizaciones flexible (se ajusta al tiempo de muestreo)
+                if MINUTO != minuto_dibujar_grafica:       #solo actualizamos la grafica cada minuto
                     plt.clf() # esto limpia la información del  área donde se pintan los graficos.
 
                     #podemos aprovechar la funcion de dibujado para extraer los datos de interes como max, min, medias...
@@ -1281,8 +1291,8 @@ if puertoDetectado:
                     
                     plt.pause(.025) # Pausa para el refresco del grafico. Es necesaria, si no, no se ve la representacion :(
 
-                    minuto_dibujar_grafica = MINUTO
-                    #minuto_dibujar_grafica = time.time() #tiempo entre muestra flexible
+                    minuto_dibujar_grafica = MINUTO        #solo actualizamos la grafica cada minuto
+                    #minuto_dibujar_grafica = time.time()  #tiempo entre actualizaciones flexible
             
         except:
             print (epochDate(time.time()),"ERROR al dibujar grafica")
@@ -1408,7 +1418,6 @@ if puertoDetectado:
                 convertir_Datos_to_TXT(lista_Datos_SOLO_dia_en_curso, nombreCompleto + ".txt", cabecera=cabeceraTXTdatos) #convierte y salva los datos diarios a un fichero *.txt
 
                 # CAMBALACHE PARA QUE EN LA GRAFICA DE RESUMEN DIARIO APAREZCAN LAS 23:59
-                # DEBUG MIERDA (7 lineas incluida esta)
                 # establecemos nuestras variables horarias manualmente
                 HORA = 23
                 MINUTO = 59

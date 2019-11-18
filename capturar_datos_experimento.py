@@ -176,7 +176,7 @@ TIEMPO_ENTRE_MUESTRAS = 60 # tiempo en segundos. Por defecto 60, un minuto
 
 
 #seccion para rutas y nombres de ficheros 
-RUTA_BACKUP = 'backup/'                         #recuerda crear la subcarpeta que desees usar como destino
+RUTA_BACKUP = 'backup/'                         #si cambias este nombre de carpeta, recuerda acabarlo con '/'
 
 FICHERO_DATOS_EXPERIMENTO =     'experimento_minitierra.dat'
 FICHERO_DATOS_DIA_EN_CURSO =    'minitierra_dia_en_curso.dat'

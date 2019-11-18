@@ -2,8 +2,7 @@
 
 **===================================================**
 ## capturar_datos_experimento.py
-### mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-
+**===================================================**
 	Es el programa central. Se encarga de comunicar con Arduino, recopilar los datos, 
 	registrarlos en un fichero y generar graficas con ellos en 'tiempo real' 
 	(la grafica se actualiza cada minuto, salvo que se indique lo contrario).
@@ -106,17 +105,17 @@
  
 	Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
 
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**===================================================**
 ## * extraer_diarios.py
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**===================================================**
 	Utilidad Python para trocear por dias el fichero de datos acumulados en formato txt
 	A priori no es de gran utilidad ya que el programa realiza copias diarias.
 	Lo hice a raiz de un fallo de sistema que me impidio acceder a los datos diarios 
 	y la necesidad de reutilizar una copia valida de datos acumulados.
 
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**===================================================**
 ## * graficar_diarios.py
-#mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**===================================================**
 	Permite realizar graficas desde ficheros diarios en formato txt.
 	Creada al tiempo de la de extraer diarios para solventar dicha contingencia.
 	

@@ -1,8 +1,8 @@
 # EXPLICACION DE LOS FICHEROS PYTHON
 
-## mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm**
 ## * capturar_datos_experimento.py
-## mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+**mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm**
 
 	Es el programa central. Se encarga de comunicar con Arduino, recopilar los datos, 
 	registrarlos en un fichero y generar graficas con ellos en 'tiempo real' 

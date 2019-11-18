@@ -74,3 +74,11 @@ Grafica de un momento del experimento en el que se aprecia el ruido de los senso
 
 Grafica del mismo momento del experimento, pero aplicando la reduccion de ruido.
 Se debe recordar que no afecta a los valores que se guardan, solo a la representacion grafica.
+
+* ***Consola del programa***
+
+![](./imagenes/consola.png)
+
+Ejemplo de informacion mostrada por consola durante el funcionamineto del programa
+
+

@@ -28,9 +28,11 @@
     que recibe, aunque es posible cambiar el aspecto de forma manual.
     
     Entre los datos a configurar por el usuario esta el 'numero de sensores'
-    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1175 --
+    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1179 --
     Veras que con una pequeña modificacion se puede hacer que el programa automaticamente
     se adapte a los datos recibidos, pero se ha optado por esta solucion por comodidad.
+    Asi indicando el numero de sensores y los nombres de estos, tendremos siempre los
+    graficos bien etiquetados.
 
 
     SOLO PARA PYTHON 3.x
@@ -1400,7 +1402,7 @@ if puertoDetectado:
                 salvar_Backup_datos(lista_Datos_SOLO_dia_en_curso, nombreCompleto + ".data")   #Salva los datos diarios a formato *.data
 
                 #salvar registros publicos diarios               
-                salvar_Backup_datos(lista_Datos_Experimento, nombreCompleto + ".full")   #Salva los datos diarios a formato *.full
+                salvar_Backup_datos(lista_Datos_Experimento, nombreCompleto + ".full")   #Salva los datos acumulados a formato *.full
 
                 #convertir a TXT
                 convertir_Datos_to_TXT(lista_Datos_SOLO_dia_en_curso, nombreCompleto + ".txt", cabecera=cabeceraTXTdatos) #convierte y salva los datos diarios a un fichero *.txt
@@ -1430,7 +1432,22 @@ if puertoDetectado:
                 
                 if (FLAG_avisar_administrador == True and FLAG_estacion_online == True):
                     send_message ("ERROR TEMPORIZADORES NUEVO DIA >> GUARDANDO RESUMEN DIARIO", ADMIN_USER)
-     
+                  
+            #----------- SECCION PARA ENVIO DE EMAIL DE RESUMEN DIARIO ----------------------------------
+            try:
+                nombreRutaConExtension = RUTA_PROGRAMA + RUTA_BACKUP + FICHERO_TXT_EXPERIMENTO
+                status1 = convertir_Datos_to_TXT(lista_Datos_SOLO_dia_en_curso, nombreRutaConExtension, \
+                                                 cabecera=cabeceraTXTdatos)
+                status2 = enviarEmail(nombreRutaConExtension)
+                if(status1==True and status2==True):
+                    send_message("EMAIL enviado correctamente", chat_id)
+                else:
+                    send_message("ERROR al enviar Email diarios", ADMIN_USER)
+                    print ("ERROR al enviar Email diarios")
+            except:
+                print ("ERROR al enviar Email diarios")
+                send_message("ERROR al enviar Email diarios", ADMIN_USER)
+               
             #----------- SECCION PARA EL RESET DE LA INFORMACION DIARIA (reset del dia en curso) ----------------------------------
             try:
                 #reset de listas de informacion diaria

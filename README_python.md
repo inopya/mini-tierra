@@ -8,7 +8,7 @@
 	registrarlos en un fichero y generar graficas con ellos en 'tiempo real' 
 	(la grafica se actualiza cada minuto, salvo que se indique lo contrario).
 
-##Puerto serie
+## Puerto serie
 
 	La velocidad del puerto serie esta establecida por defecto en 115200.
 	Programar dicha velocidad en el puerto serie de Arduino o cambiar la de python.
@@ -18,7 +18,7 @@
 	Ojo, si hay mas de de un dispositivo conectado en los puertos serie podemos 'tener problemas'
 	y no detectar correctamente a nuesto Arduino.
 
-##Modo online y modo offline
+## Modo online y modo offline
 
 	Disponemos de deos modos de funcionamiento: *online* y *offline*
 	El registro de datos y la representacion graficas estan habilitados siempre,

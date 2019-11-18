@@ -89,9 +89,8 @@
 	en la llamada a la funcion **subplot_grafico()**, se dispone del parametro "soft" 
 	que si se activa genera graficos suavizados eliminando en la medida de lo posible 
 	el 'ruido' de los sensores.
-	Recordad que aunque se active la reduccion de ruido, 
-	esta no afecta a los datos que se recopilan. 
-	El suavizado gráfico afecta solo a la representación.
+	Recordad que aunque se active la reduccion de ruido, esta no afecta a los datos recopilados. 
+	El suavizado gráfico se aplica solo a la representación.
 
 
 ### Registro/Salvado de datos:
@@ -104,8 +103,9 @@
 	  - realiza una copia de los datos del dia en curso (en formato python pickle) con el nombre 'año_mes_dia'.data 
 	  - realiza una copia de los datos del dia en curso con el nombre 'año_mes_dia'.txt
 	  - realiza una copia del acumulado de los datos que se guarda con el nombre 'año_mes_dia_full'.txt
-
-	  Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
+	  - realiza una copia de la grafica con el con el nombre 'año_mes_dia'.png
+	  
+	  Estas copias se colocaran en el subdirectorio '/backup/diarios'.
 	
 	
 
@@ -125,5 +125,5 @@
 **===================================================**
 
 	Permite realizar graficas desde ficheros diarios en formato txt.
-	Creada al tiempo de la de extraer diarios para solventar dicha contingencia.
+	Creada al tiempo de la de 'extraer diarios' para solventar dicha contingencia.
 	

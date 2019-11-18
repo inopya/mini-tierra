@@ -194,7 +194,7 @@ URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 update_id = None
 
-user_keyboard = [['/info','/fig'],['/email', '/txt'],['/save','/ayuda'],['/deleteOld','/deleteNew']]
+user_keyboard = [['/info','/fig'],['/email', '/txt'],['/save','/ayuda'],['/stop'],['/deleteOld','/deleteNew']]
 user_keyboard_markup = ReplyKeyboardMarkup(user_keyboard, one_time_keyboard=True)
 
 """ poner en marcha el bot """
@@ -208,6 +208,7 @@ listaComandos = ["/ayuda - Mostrar esta Ayuda", \
                  "/fig - Grafico de Evolucion",\
                  "/deleteOld - Borra los 15 primeros datos",\
                  "/deleteNew - Borra los 15 ultimos datos",\
+                 "/stop - Finaliza el experimento",\
                  "/save - Realiza una copia de seguridad","\n"]
 
 

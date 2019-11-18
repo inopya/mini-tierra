@@ -100,11 +100,11 @@
 	  Estas copias se colocaran en la carpeta de trabajo '/backup'
 
 	* Asi mismo, al terminar el dia en curso:
-		- realiza una copia de los datos del dia en curso (en formato python pickle) con el nombre 'año_mes_dia'.data 
-		- realiza una copia de los datos del dia en curso con el nombre 'año_mes_dia'.txt
-		- realiza una copia del acumulado de los datos que se guarda con el nombre 'año_mes_dia_full'.txt
+	  - realiza una copia de los datos del dia en curso (en formato python pickle) con el nombre 'año_mes_dia'.data 
+	  - realiza una copia de los datos del dia en curso con el nombre 'año_mes_dia'.txt
+	  - realiza una copia del acumulado de los datos que se guarda con el nombre 'año_mes_dia_full'.txt
 
-		Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
+	  Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
 	
 	
 

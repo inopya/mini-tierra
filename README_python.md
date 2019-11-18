@@ -1,14 +1,13 @@
-# EXPLICACION DE LOS FICHEROS PYTHON
+## EXPLICACION DE LOS FICHEROS PYTHON
 
-**mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm**
-## * capturar_datos_experimento.py
-**mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm**
+# capturar_datos_experimento.py
+
 
 	Es el programa central. Se encarga de comunicar con Arduino, recopilar los datos, 
 	registrarlos en un fichero y generar graficas con ellos en 'tiempo real' 
 	(la grafica se actualiza cada minuto, salvo que se indique lo contrario).
 
-## Puerto serie
+### Puerto serie
 
 	La velocidad del puerto serie esta establecida por defecto en 115200.
 	Programar dicha velocidad en el puerto serie de Arduino o cambiar la de python.

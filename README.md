@@ -43,7 +43,9 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
  
 ***MODO DE EMPLEO***
 
-  Leer el fichero **README_python.md** para una descripcion detallada del programa de captura
+    Leer el fichero **README_python.md** para una descripcion detallada del programa de captura
+    
+    
   
 ***SENSORES EMPLEADOS***
 

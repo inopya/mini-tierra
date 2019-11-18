@@ -81,7 +81,7 @@
 
 
 
-### Suavizado de gráica
+### Suavizado de gráfica
 
 	Dado que algunos sensores (especialmeten los analogicos: LDRs, sensores de gas, de pH...) 
 	suelen ser algo ruidosos, en el apartado de funciones para dibujar la grafica, 
@@ -95,16 +95,16 @@
 
 ### Registro/Salvado de datos:
 
-* El programa realiza copias de los datos cada cierto tiempo, 
-  programable mediante la variable **INTERVALO_BACKUP**
-  Estas copias se colocaran en la carpeta de trabajo '/backup'
-	
-* Asi mismo, al terminar el dia en curso:
-	- realiza una copia de los datos del dia en curso (en formato python pickle) con el nombre 'año_mes_dia'.data 
-	- realiza una copia de los datos del dia en curso con el nombre 'año_mes_dia'.txt
-	- realiza una copia del acumulado de los datos que se guarda con el nombre 'año_mes_dia_full'.txt
- 
-	Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
+	* El programa realiza copias de los datos cada cierto tiempo, 
+	  programable mediante la variable **INTERVALO_BACKUP**
+	  Estas copias se colocaran en la carpeta de trabajo '/backup'
+
+	* Asi mismo, al terminar el dia en curso:
+		- realiza una copia de los datos del dia en curso (en formato python pickle) con el nombre 'año_mes_dia'.data 
+		- realiza una copia de los datos del dia en curso con el nombre 'año_mes_dia'.txt
+		- realiza una copia del acumulado de los datos que se guarda con el nombre 'año_mes_dia_full'.txt
+
+		Estas copias se colocaran en el subdirectorio '/diarios' de la carpeta de trabajo '/backup'
 	
 	
 

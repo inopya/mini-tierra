@@ -117,6 +117,12 @@
 	A priori no es de gran utilidad ya que el programa realiza copias diarias.
 	Lo hice a raiz de un fallo de sistema que me impidio acceder a los datos diarios 
 	y la necesidad de reutilizar una copia valida de datos acumulados.
+	Al inicio del programa encontramos la linea:
+	file_entrada= open('experimento_minitierra_full.txt', 'r') 
+	deberemos colocar nuestro fichero *.txt de interes en el directorio 
+	donde se encuentre esta utilidad python y sustituir el nombre de fichero por el nuestro
+	Se generara un fichero por cada dia distinto que aaprezca en el fichero de datos
+	y se guardaran con el nombre de la fecha a la que corresponden: 'año_mes_dia.txt'
 	
 	
 
@@ -126,4 +132,10 @@
 
 	Permite realizar graficas desde ficheros diarios en formato txt.
 	Creada al tiempo de la de 'extraer diarios' para solventar dicha contingencia.
+	Debe estar colocada en el mismo directorio que los ficheros de datos *.txt 
+	de los que se desee obtener las graficas (pueden ser uno o varios), pero
+	debemos asegurarnos de que no haya otros ficheros txt en esa carpeta.
+	El programa generará una lsita con el contenido de los ficheros y los 
+	representará y guardará uno a uno en formato PNG usando como nombre 
+	el nombre original del fichero txt.
 	

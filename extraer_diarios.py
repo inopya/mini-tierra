@@ -12,6 +12,7 @@
 # *          LABORATORIO PARA PRINCIPIANTES            * #
 # * Utilidad para separar por dias datos recopilados   * #
 # *          Autor:  Eulogio López Cayuela             * #
+# *            https://github.com/inopya/              * #
 # *                                                    * #
 # *     Extraer diarios  v1.0    Fecha: 11/11/2019     * #
 # ****************************************************** #

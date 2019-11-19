@@ -1,4 +1,4 @@
-# Mini tierra
+# Mini tierra (lee tambien README_python.md)
 ***Experimento bioclimatico y utilidades***
 
 #### Reproduciendo en casa el experimento bioclimatico presentado en el biotecnoencuentro de Pulpi en octubre de 2019

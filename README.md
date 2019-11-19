@@ -1,4 +1,4 @@
-# Mini tierra   _(lee tambien README_python.md)_
+# Mini tierra   _ (lee tambien README_python.md) _
 ***Experimento bioclimatico y utilidades***
 
 #### Reproduciendo en casa el experimento bioclimatico presentado en el biotecnoencuentro de Pulpi en octubre de 2019
@@ -29,7 +29,8 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
  *Algunas imagenes del montaje y ejemplo de graficos obtenidos durante el experimento.*
 * CARPETA> minitierra_v1.0:
  *Fichero Arduino para el experimento como tal*
- 
+* CARPETA> sensores:
+ *Imagenes e informacion de los sensores utilizados (en proceso...)* 
 * FICHERO> capturar_datos_experimento.py: 
  *Archivo Python para la adquisicion de datos, registro, representacion y comunicacion telegram*
 * FICHERO> extraer_diarios.py: 

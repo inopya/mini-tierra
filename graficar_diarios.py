@@ -12,6 +12,7 @@
 # *          LABORATORIO PARA PRINCIPIANTES            * #
 # *  Utilidad graficas de ficheros diarios de datos    * #
 # *          Autor:  Eulogio López Cayuela             * #
+# *            https://github.com/inopya/              * #
 # *                                                    * #
 # *     Graficar diarios  v1.0   Fecha: 11/11/2019     * #
 # ****************************************************** #
@@ -69,7 +70,6 @@ import math
 #Ruta absoluta en la que se encuentra el script. Util apra las llamadas desde el inicio del sistema
 RUTA_PROGRAMA = os.path.dirname(os.path.abspath(__file__)) +'/'
 NOMBRE_SCRIPT_EN_EJECUCION = os.path.basename(__file__)
-RUTA_BACKUP = ""#'backup/' 
 
 
 
@@ -413,7 +413,7 @@ for FICHERO_TXT_EXPERIMENTO in lista_ficheros_datos:
         print (epochDate(time.time()),"ERROR al dibujar grafica")
                     
     try:
-        plt.savefig(RUTA_PROGRAMA + RUTA_BACKUP + FICHERO_GRAFICA_EXPERIMENTO)
+        plt.savefig(RUTA_PROGRAMA + FICHERO_GRAFICA_EXPERIMENTO)
         #time.sleep(1) #pausa entre generacion de graficas, por puro gusto de perder el rato
         plt.close('all') 
     except:

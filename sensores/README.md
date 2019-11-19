@@ -7,7 +7,7 @@ De hecho no es idoneo para CO2, pero si que es una solucion barata para iniciars
 
 ![](./mq-135.jpg)
 
-* **Pines:
+* **Pines:**
 
   - DOUT    Salida digital ante un determinado un determinado umbral
   - AOUT    Salida analogica, es la realmente util para obtener medidas de gas

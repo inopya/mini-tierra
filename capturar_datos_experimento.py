@@ -12,6 +12,7 @@
 # *          LABORATORIO PARA PRINCIPIANTES            * #
 # *  Utilidad graficas de ficheros diarios de datos    * #
 # *          Autor:  Eulogio López Cayuela             * #
+# *            https://github.com/inopya/              * #
 # *                                                    * #
 # *     Captura de datos  v1.0   Fecha: 20/08/2018     * #
 # ****************************************************** #
@@ -28,7 +29,7 @@
     que recibe, aunque es posible cambiar el aspecto de forma manual.
     
     Entre los datos a configurar por el usuario esta el 'numero de sensores'
-    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1189 --
+    que facilitará el posicionamiento de los graficos. -- Seccion principal LINEA 1190 --
     Veras que con una pequeña modificacion se puede hacer que el programa automaticamente
     se adapte a los datos recibidos, pero se ha optado por esta solucion por comodidad.
     Asi indicando el numero de sensores y los nombres de estos, tendremos siempre los

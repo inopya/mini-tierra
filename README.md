@@ -33,7 +33,7 @@ ha usado una version mas parecida a mi programa base de adquisicion y representa
 * FICHERO> capturar_datos_experimento.py: 
  *Archivo Python para la adquisicion de datos, registro, representacion y comunicacion telegram*
 * FICHERO> extraer_diarios.py: 
- *Utilidad Python paratrocear por dias el fichero de datos generado durante la adquisicion*
+ *Utilidad Python para trocear por dias el fichero de datos generado durante la adquisicion*
 * FICHERO> graficar_diarios.py: 
  *Utilidad Python para generar graficas desde los ficheros diarios de datos*
  

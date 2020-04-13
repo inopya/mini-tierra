@@ -620,14 +620,6 @@ def consultar_Arduino(PAUSA = 0.5):
     global arduinoSerialPort, FLAG_buscandoConexion
 
     try:
-        arduinoSerialPort.flushInput() #eliminar posibles restos de lecturas anteriores
-        arduinoSerialPort.flushOutput()#abortar comunicaciones salientes que puedan estar a medias
-
-    except:
-        print ("------------------------------------------------")
-        print ("error borrando datos del puerto Serie de Arduino")
- 
-    try:
         #enviar comando para que ARDUINO reaccione. El prefijo b (byte) es opcional en python 2.x pero obligatorio en 3.x
         arduinoSerialPort.write(b'*')
         #pausa para que arduino tenga tiempo de reaccionar y dejar la informacion en el puerto Serie
